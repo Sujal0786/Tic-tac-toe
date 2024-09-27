@@ -7,7 +7,29 @@
 body{
     background-color: #99c3e0;
     text-align: center;
+    background-image: url('https://wallup.net/wp-content/uploads/2016/01/224360-video_games-fantasy_art-concept_art-science_fiction-SkySaga.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    /* height: 100%; */
+    width: 100vw;
 
+
+}
+.container1{
+    /* background-color: #99c3e0;
+    text-align: center;
+    background-image: url(https://wallup.net/wp-content/uploads/2016/01/224360-video_games-fantasy_art-concept_art-science_fiction-SkySaga.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; */
+    /* height: 100vh; */
+    /* width: 100vw; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
 }
 
 .container{
@@ -59,9 +81,27 @@ body{
 }
 
 #msg{
-    color: #7a41b7;;
+    color: #ffffff;
     font-size: 8vmin;
+    background-color: #3088c5;
+    /* border: 2px solid; */
+    border-radius: 1rem;
+    padding: 3px 12px;
+    box-shadow: 1px 2px 3px rgba(8, 12, 11, 10.5);
 }
+h1{
+    margin-top: 2rem;
+    color: #ffffff;
+    font-size: 8vmin;
+    background-color: #3088c5;
+    /* border: 2px solid; */
+    border-radius: 1rem;
+    padding: 3px 12px;
+    box-shadow: 1px 2px 3px rgba(8, 12, 11, 10.5);
+}
+
+
+
 .msg-cont{
     height: 100vmin;
     display: flex;
